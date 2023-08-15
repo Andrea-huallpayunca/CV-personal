@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.fondo {
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+}
+
+.foto{
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+margin-left: 40px;
+}
+
+footer{
+    background-color: #020C0B;
+    height: 200px;
+}
+footer i{
+    color: white;
+}
