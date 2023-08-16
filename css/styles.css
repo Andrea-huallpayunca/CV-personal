@@ -1,27 +1,93 @@
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 
+header{
+    padding: 50px;   
+    color: white;
+}
+header div{
+    width: 20%;
+    text-align: center;
+}
+h1{
+    font-size: medium;
+    margin-top: 20px;
+}
 .fondo {
     background-image: url("../img/fondo.jpg");
     background-position: center;
     background-size: cover;
-    height: 300px;
-    display: flex;
+    height:100%;
 }
 
 .foto{
     height: 200px;
     border-radius: 50%;
-    align-self: center;
-margin-left: 40px;
+    display: block;
+    margin: auto  ;
 }
 
+main{
+    padding: 90px ;
+}
+
+nav li{
+    width: 150px;
+    border: 1px solid #020C0B;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e6f1f0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #020C0B;
+    font-weight: 600;
+}
+
+main .parrafo{
+    padding: 30px 40px;
+
+}
+.card{
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: block;
+    margin: 30px; 
+    padding: 30px;   
+}
+h2{
+    margin-bottom: 20px;
+}
+li span{
+    font-weight: 600;
+}
+
+.card h3{
+    background-color: #020C0B;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    font-size:small;
+    border-radius: 5px;
+}
+.card ul li {
+    padding: 5px 0;
+}
+.experiencias p{
+    margin: 10px 0;
+}
 footer{
     background-color: #020C0B;
-    height: 200px;
+    padding: 30px;
+    color: white;
 }
 footer i{
     color: white;
+    font-size:x-large;
+    padding: 0 30px;
 }
